@@ -29,6 +29,8 @@ import (
 	"github.com/mitchellh/prefixedio"
 
 	backendInit "github.com/hashicorp/terraform/backend/init"
+
+	_ "github.com/johnstarich/go/dns/init"
 )
 
 const (
