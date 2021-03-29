@@ -27,11 +27,18 @@ import (
 	"github.com/mitchellh/colorstring"
 	"github.com/mitchellh/panicwrap"
 	"github.com/mitchellh/prefixedio"
+	"go.uber.org/zap"
 
 	backendInit "github.com/hashicorp/terraform/backend/init"
 
-	_ "github.com/johnstarich/go/dns/init"
+	"github.com/johnstarich/go/dns"
 )
+
+func init() {
+	logger, _ := zap.NewDevelopment()
+	config := dns.Config{Logger: logger}
+	net.DefaultResolver = dns.NewWithConfig(config)
+}
 
 const (
 	// EnvCLI is the environment variable name to set additional CLI args.
