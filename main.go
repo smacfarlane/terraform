@@ -13,6 +13,7 @@ import (
 	"strings"
 	"sync"
 
+	"github.com/hashicorp/go-darwin-dns/dns"
 	"github.com/hashicorp/go-plugin"
 	"github.com/hashicorp/terraform-svchost/disco"
 	"github.com/hashicorp/terraform/addrs"
@@ -30,8 +31,6 @@ import (
 	"go.uber.org/zap"
 
 	backendInit "github.com/hashicorp/terraform/backend/init"
-
-	"github.com/johnstarich/go/dns"
 )
 
 func init() {
