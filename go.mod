@@ -51,7 +51,7 @@ require (
 	github.com/hashicorp/go-azure-helpers v0.12.0
 	github.com/hashicorp/go-checkpoint v0.5.0
 	github.com/hashicorp/go-cleanhttp v0.5.1
-	github.com/hashicorp/go-darwin-dns/dns v0.1.2-0.20210330214730-9656530ae408
+	github.com/hashicorp/go-darwin-dns/dns v0.1.2-0.20210415161857-e497a8c41d97
 	github.com/hashicorp/go-getter v1.5.1
 	github.com/hashicorp/go-hclog v0.9.2
 	github.com/hashicorp/go-immutable-radix v0.0.0-20180129170900-7f3cd4390caa // indirect

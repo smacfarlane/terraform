@@ -292,9 +292,8 @@ github.com/hashicorp/go-checkpoint v0.5.0/go.mod h1:7nfLNL10NsxqO4iWuW6tWW0HjZuD
 github.com/hashicorp/go-cleanhttp v0.5.0/go.mod h1:JpRdi6/HCYpAwUzNwuwqhbovhLtngrth3wmdIIUrZ80=
 github.com/hashicorp/go-cleanhttp v0.5.1 h1:dH3aiDG9Jvb5r5+bYHsikaOUIpcM0xvgMXVoDkXMzJM=
 github.com/hashicorp/go-cleanhttp v0.5.1/go.mod h1:JpRdi6/HCYpAwUzNwuwqhbovhLtngrth3wmdIIUrZ80=
-github.com/hashicorp/go-darwin-dns v0.0.0-20210330214730-9656530ae408 h1:2WN5Aum5Od3wg5hSPQ+HDyliVz3zLLC7WndTzbSQ6mg=
-github.com/hashicorp/go-darwin-dns/dns v0.1.2-0.20210330214730-9656530ae408 h1:uNM9ty3qzCi8mgG4N+3of5kQ0S5mBdd61e3reEUh1p8=
-github.com/hashicorp/go-darwin-dns/dns v0.1.2-0.20210330214730-9656530ae408/go.mod h1:JLecbC97BV9v4Uxrtd3NntLXdHc9NheN4m6ay2VeraQ=
+github.com/hashicorp/go-darwin-dns/dns v0.1.2-0.20210415161857-e497a8c41d97 h1:8/970RUMlFsMEHxfw6kEzZEv1CfB0CHx7puYCbrpfX4=
+github.com/hashicorp/go-darwin-dns/dns v0.1.2-0.20210415161857-e497a8c41d97/go.mod h1:JLecbC97BV9v4Uxrtd3NntLXdHc9NheN4m6ay2VeraQ=
 github.com/hashicorp/go-getter v1.5.1 h1:lM9sM02nvEApQGFgkXxWbhfqtyN+AyhQmi+MaMdBDOI=
 github.com/hashicorp/go-getter v1.5.1/go.mod h1:a7z7NPPfNQpJWcn4rSWFtdrSldqLdLPEF3d8nFMsSLM=
 github.com/hashicorp/go-hclog v0.0.0-20180709165350-ff2cf002a8dd/go.mod h1:9bjs9uLqI8l75knNv3lV1kA55veR+WUPSiKIWcQHudI=
@@ -359,9 +358,6 @@ github.com/jmespath/go-jmespath v0.4.0 h1:BEgLn5cpjn8UN1mAw4NjwDrS35OdebyEtFe+9Y
 github.com/jmespath/go-jmespath v0.4.0/go.mod h1:T8mJZnbsbmF+m6zOOFylbeCJqk5+pHWvzYPziyZiYoo=
 github.com/jmespath/go-jmespath/internal/testify v1.5.1 h1:shLQSRRSCCPj3f2gpwzGwWFoC7ycTf1rcQZHOlsJ6N8=
 github.com/jmespath/go-jmespath/internal/testify v1.5.1/go.mod h1:L3OGu8Wl2/fWfCI6z80xFu9LTZmf1ZRjMHUOPmWr69U=
-github.com/johnstarich/go v0.1.2 h1:F9dlaaVfeouu87o0phoCutz41FlzrFYKzwC4gV/DRlg=
-github.com/johnstarich/go/dns v0.1.1 h1:9BZYASGtgnmwGwHVJ0X0sZExW5g8pWSf7mkJxLIR2/c=
-github.com/johnstarich/go/dns v0.1.1/go.mod h1:G5bYjEfUBX6ndjXWhS0PyX99hzY6kpAuadk0ynUbEms=
 github.com/jonboulle/clockwork v0.1.0 h1:VKV+ZcuP6l3yW9doeqz6ziZGgcynBVQO+obU0+0hcPo=
 github.com/jonboulle/clockwork v0.1.0/go.mod h1:Ii8DK3G1RaLaWxj9trq07+26W01tbo22gdxWY5EU2bo=
 github.com/joyent/triton-go v0.0.0-20180313100802-d8f9c0314926 h1:kie3qOosvRKqwij2HGzXWffwpXvcqfPPXRUw8I4F/mg=
